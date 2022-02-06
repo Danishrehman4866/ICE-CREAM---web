@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <title>ICE CREAM</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <li class="fas fa-bars"></li>
+        </label>
+        <label class="logo">Freee<span class="hero">z</span>e</label>
+        <ul>
+            <li><a class="active" href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="background-image">
+
+    </div>
+    <div class="parent" style="display: flex; background-color: violet;">
+     <div class="small" style="float: left; width: 70%; padding-left: 8%; margin-top: 25px;">
+      <h4>NEW PRODUCT</h4>
+      <h1 style="color: rgb(231, 24, 145);">The Twist of Healthy Yogurt</h1>
+      <p>The Website template has been design by</p>
+      <p>Free Website Template <hr></p>
+      <p>for You, free You can replace all this text with your own text</p>
+     </div>
+     <div class="small" style="float: right; width: 30%;  padding-bottom: 0px; padding-left: 11px;">
+       <img src="./Assets/images/bg.jpg" alt="">
+     </div>
+    </div>
+    <!-- <section">
+     <div class="row" style="width: 100%;">
+       <div class="col-md-8" style="padding-left: 5%; background-color: rgb(143, 58, 108);">
+        <h4>NEW PRODUCT</h4>
+        <h1 style="color: rgb(231, 24, 145);">The Twist of Healthy Yogurt</h1>
+        <br>
+        <p>The Website template has been design by</p>
+        <br>
+        <p>Free Website Template <hr style="width: 150px;"></p>
+        <br>
+        <p>for You, free You can replace all this text with your own text</p>
+       </div>
+       <div class="col-md-4">
+         <img class="img" src="./Assets/images/bg3.png" style="width: 105%; margin-top: 15px;background-position: center;"  alt="">
+       </div>
+     </div>
+    </section> -->
+
+     <section style="background-color: yellowgreen;">
+     <div class="container" style="padding-top: 5px;">
+     <div class="row">
+      <div class="col-md-3">
+        <i style="color: white;" class='fas fa-ice-cream' style="font-size: 48px; padding-left: 25px;"></i>
+       <ul>
+        <h6 style="color: white;">PRODUCTS</h6>
+       </ul>
+      </div>
+      <div class="col-md-3">
+        <ul>
+         <i style="color: white;" class='fa fa-hand-rock' style="font-size: 48px;"></i>
+         <h6 style="color: white;">OUR STORY</h6>
+        </ul>
+       </div>
+       <div class="col-md-3">
+        <ul>
+         <i style="color: white;" class='fa fa-heart' style="font-size: 48px;"></i>
+         <h6 style="color: white;"FLAVORS>FLAVORS</h6>
+        </ul>
+       </div>
+       <div class="col-md-3">
+        <ul>
+         <i style="color: white;" class='fa fa-map-marker' style="font-size: 48px;"></i>
+         <h6 style="color: white;">OUR LOCATION</h6>
+        </ul>
+       </div>
+     </div>
+      </div>
+    </section>
+</body>
+</html>
